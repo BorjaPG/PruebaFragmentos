@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Este fragmento solo muestra en vertical el texto correspondiente a los detalles del elemento,
+    en este caso el mismo nombre del elemento -->
+    <fragment
+        android:id="@+id/detailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.bp.pruebafragmentos.DetailFragment" />
+
+</LinearLayout>
